@@ -9,6 +9,8 @@ public interface EmployeeRepo extends JpaRepository<Employee, Long> {
 
     /*Database repository for querying database
     JPA does a lot of the abstraction needeed*/
+    /*Spring is going to created a query to match the name of this method
+     * saves us having to write out the query*/
     void deleteEmployeeByID(Long id);
 
 

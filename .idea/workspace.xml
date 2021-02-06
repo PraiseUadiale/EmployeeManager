@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d2ebd5b-41b5-4243-9546-a559206b9668" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Model/EmployeeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Repository/EmployeeRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Controller/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Repository/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Repository/EmployeeRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612633759409</updated>
-      <workItem from="1612633765608" duration="6598000" />
+      <workItem from="1612633765608" duration="7761000" />
     </task>
     <servers />
   </component>
