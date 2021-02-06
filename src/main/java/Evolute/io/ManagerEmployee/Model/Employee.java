@@ -33,10 +33,12 @@ public class Employee {
     public Employee(String fullName,
                     String email,
                     String jobTitle,
-                    String imageUrl) {
+                    String imageUrl,
+                    String employeeCode) {
         this.fullName = fullName;
         this.email = email;
         this.jobTitle = jobTitle;
         this.imageUrl = imageUrl;
+        this.employeeCode = employeeCode;
     }
 }

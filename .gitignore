@@ -9,7 +9,7 @@
 target
 .idea/dataSources.local.xml
 .idea/dataSources/
-.idea/workspace.xml
+*.idea
 .gitignore
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
