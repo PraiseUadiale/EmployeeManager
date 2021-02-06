@@ -4,21 +4,23 @@ import Evolute.io.ManagerEmployee.Model.Employee;
 import Evolute.io.ManagerEmployee.Model.EmployeeException;
 import Evolute.io.ManagerEmployee.Repository.EmployeeRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-@org.springframework.stereotype.Service
-public class Service {
+@Service
+public class EmployeeService {
     //Service class which is going to be used by the controller
 
     private final EmployeeRepo repo;
     //Dependency injection has been done on such
 
     @Autowired
-    public Service(EmployeeRepo repo) {
-        this.repo = repo;
+    public EmployeeService(EmployeeRepo repository) {
+        this.repo = repository;
     }
 
     /*CRUD*/
