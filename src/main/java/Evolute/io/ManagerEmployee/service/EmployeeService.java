@@ -2,6 +2,7 @@ package Evolute.io.ManagerEmployee.service;
 
 import Evolute.io.ManagerEmployee.model.Employee;
 import Evolute.io.ManagerEmployee.model.EmployeeException;
+import Evolute.io.ManagerEmployee.repository.EmployeeRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

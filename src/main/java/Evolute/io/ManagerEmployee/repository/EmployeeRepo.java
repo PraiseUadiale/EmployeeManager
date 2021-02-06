@@ -1,4 +1,4 @@
-package Evolute.io.ManagerEmployee.service;
+package Evolute.io.ManagerEmployee.repository;
 
 import Evolute.io.ManagerEmployee.model.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
