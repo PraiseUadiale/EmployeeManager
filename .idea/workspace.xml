@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d2ebd5b-41b5-4243-9546-a559206b9668" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Repository/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Repository/EmployeeRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/ManagerEmployeeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/ManagerEmployeeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Model/EmployeeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/model/EmployeeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Repository/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/service/EmployeeRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/Service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Evolute/io/ManagerEmployee/service/EmployeeService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,28 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Evolute.io.ManagerEmployee.Controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Evolute.io.ManagerEmployee" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManagerEmployeeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ManagerEmployee" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="Evolute.io.ManagerEmployee.ManagerEmployeeApplication" />
@@ -81,5 +105,15 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

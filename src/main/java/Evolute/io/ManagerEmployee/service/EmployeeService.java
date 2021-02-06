@@ -1,15 +1,14 @@
-package Evolute.io.ManagerEmployee.Service;
+package Evolute.io.ManagerEmployee.service;
 
-import Evolute.io.ManagerEmployee.Model.Employee;
-import Evolute.io.ManagerEmployee.Model.EmployeeException;
-import Evolute.io.ManagerEmployee.Repository.EmployeeRepo;
+import Evolute.io.ManagerEmployee.model.Employee;
+import Evolute.io.ManagerEmployee.model.EmployeeException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
+
 
 @Service
 public class EmployeeService {
@@ -19,8 +18,8 @@ public class EmployeeService {
     //Dependency injection has been done on such
 
     @Autowired
-    public EmployeeService(EmployeeRepo repository) {
-        this.repo = repository;
+    public EmployeeService(EmployeeRepo repo) {
+        this.repo = repo;
     }
 
     /*CRUD*/
@@ -35,7 +34,7 @@ public class EmployeeService {
     }
 
     public Employee findEmployeeByID(Long id) {
-        return repo.findByEmployeeById(id).
+        return repo.findEmployeeByID(id).
                 orElseThrow(() ->
                         new EmployeeException("User with " +
                                 id + "Not found"));
@@ -43,7 +42,7 @@ public class EmployeeService {
 
 
     public void deleteEmployee(Long id) {
-        Optional<Employee> employee = repo.findByEmployeeById(id);
+        Optional<Employee> employee = repo.findEmployeeByID(id);
         if (employee.isPresent()) {
             repo.deleteEmployeeByID(id);
         }

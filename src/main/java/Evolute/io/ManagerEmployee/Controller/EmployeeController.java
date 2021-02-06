@@ -1,7 +1,7 @@
 package Evolute.io.ManagerEmployee.Controller;
 
-import Evolute.io.ManagerEmployee.Model.Employee;
-import Evolute.io.ManagerEmployee.Service.EmployeeService;
+import Evolute.io.ManagerEmployee.service.EmployeeService;
+import Evolute.io.ManagerEmployee.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
