@@ -6,10 +6,11 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
-@Entity
+
 @Getter
 @Setter
 @NoArgsConstructor
+@Entity
 public class Employee {
     /*Employee Class
      * Class would model to database*/
@@ -27,6 +28,7 @@ public class Employee {
     private String email;
     private String jobTitle;
     private String imageUrl;
+    private String phoneNumber;
     @Column(nullable = false, updatable = false)
     private String employeeCode;
 
@@ -34,11 +36,13 @@ public class Employee {
                     String email,
                     String jobTitle,
                     String imageUrl,
-                    String employeeCode) {
+                    String employeeCode,
+                    String phoneNumber) {
         this.fullName = fullName;
         this.email = email;
         this.jobTitle = jobTitle;
         this.imageUrl = imageUrl;
+        this.phoneNumber = phoneNumber;
         this.employeeCode = employeeCode;
     }
 }
