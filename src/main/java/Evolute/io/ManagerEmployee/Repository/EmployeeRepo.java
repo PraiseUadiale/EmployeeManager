@@ -1,6 +1,6 @@
 package Evolute.io.ManagerEmployee.Repository;
 
-import Evolute.io.ManagerEmployee.Model.Employee;
+import Evolute.io.ManagerEmployee.model.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

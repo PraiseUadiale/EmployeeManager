@@ -1,7 +1,7 @@
 package Evolute.io.ManagerEmployee.Service;
 
-import Evolute.io.ManagerEmployee.Model.Employee;
-import Evolute.io.ManagerEmployee.Model.EmployeeException;
+import Evolute.io.ManagerEmployee.model.Employee;
+import Evolute.io.ManagerEmployee.model.EmployeeException;
 import Evolute.io.ManagerEmployee.Repository.EmployeeRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 
