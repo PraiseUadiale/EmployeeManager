@@ -1,4 +1,4 @@
-package Evolute.io.ManagerEmployee.Model;
+package Evolute.io.ManagerEmployee.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
